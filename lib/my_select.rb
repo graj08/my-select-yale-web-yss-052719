@@ -7,8 +7,6 @@ def my_select(collection)
    if new_value == true do
      return_array << new_value
    end
- else
- end
    i +=1
  end
  return_array

@@ -6,8 +6,10 @@ def my_select(collection)
    new_value = yield collection[i]
    if new_value == true do
      return_array << new_value
-   else
    end
+ else
+ end
    i +=1
  end
+ return_array
 end
